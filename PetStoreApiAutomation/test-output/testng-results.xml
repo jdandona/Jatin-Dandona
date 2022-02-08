@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Object matches with common properties]]>
+    </line>
+    <line>
+      <![CDATA[Quantity matched after placing the order]]>
+    </line>
+    <line>
+      <![CDATA[Object matches with common properties]]>
+    </line>
+    <line>
+      <![CDATA[Quantity matched after placing the order]]>
+    </line>
+    <line>
+      <![CDATA[Object matches with common properties]]>
+    </line>
+    <line>
+      <![CDATA[Quantity matched after placing the order]]>
+    </line>
+    <line>
+      <![CDATA[Order deleted Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Quantity matched after placing the order]]>
+    </line>
+    <line>
+      <![CDATA[Object matches with common properties]]>
+    </line>
+    <line>
+      <![CDATA[Quantity matched after placing the order]]>
+    </line>
+    <line>
+      <![CDATA[Newly Placed order Found]]>
+    </line>
+    <line>
+      <![CDATA[Order deleted Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3639" started-at="2022-02-08T15:05:39 IST" finished-at="2022-02-08T15:05:43 IST">
+    <groups>
+    </groups>
+    <test name="Inventory Actions" duration-ms="3639" started-at="2022-02-08T15:05:39 IST" finished-at="2022-02-08T15:05:43 IST">
+      <class name="org.N26.PetStoreApiAutomation.Tests.MoveOrderFromPlcaedToApproveToDelivered">
+        <test-method status="PASS" signature="executeBeforeClass()[pri:0, instance:org.N26.PetStoreApiAutomation.Tests.MoveOrderFromPlcaedToApproveToDelivered@58c1670b]" name="executeBeforeClass" is-config="true" duration-ms="553" started-at="2022-02-08T15:05:39 IST" finished-at="2022-02-08T15:05:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeClass -->
+        <test-method status="PASS" signature="Step_PlaceOrderInPlaced_ThenMoveToApproved_ThenMoveToDelivered()[pri:0, instance:org.N26.PetStoreApiAutomation.Tests.MoveOrderFromPlcaedToApproveToDelivered@58c1670b]" name="Step_PlaceOrderInPlaced_ThenMoveToApproved_ThenMoveToDelivered" duration-ms="2862" started-at="2022-02-08T15:05:40 IST" finished-at="2022-02-08T15:05:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Object matches with common properties]]>
+            </line>
+            <line>
+              <![CDATA[Quantity matched after placing the order]]>
+            </line>
+            <line>
+              <![CDATA[Object matches with common properties]]>
+            </line>
+            <line>
+              <![CDATA[Quantity matched after placing the order]]>
+            </line>
+            <line>
+              <![CDATA[Object matches with common properties]]>
+            </line>
+            <line>
+              <![CDATA[Quantity matched after placing the order]]>
+            </line>
+            <line>
+              <![CDATA[Order deleted Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Quantity matched after placing the order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_PlaceOrderInPlaced_ThenMoveToApproved_ThenMoveToDelivered -->
+      </class> <!-- org.N26.PetStoreApiAutomation.Tests.MoveOrderFromPlcaedToApproveToDelivered -->
+      <class name="org.N26.PetStoreApiAutomation.Tests.PlaceAndDeleteOderFromInventory">
+        <test-method status="PASS" signature="executeBeforeClass()[pri:0, instance:org.N26.PetStoreApiAutomation.Tests.PlaceAndDeleteOderFromInventory@7a9273a8]" name="executeBeforeClass" is-config="true" duration-ms="0" started-at="2022-02-08T15:05:43 IST" finished-at="2022-02-08T15:05:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeClass -->
+        <test-method status="PASS" signature="checkStoreInventory_WhenUser_Placed_NewOrder_Then_Delete_TheOrder()[pri:0, instance:org.N26.PetStoreApiAutomation.Tests.PlaceAndDeleteOderFromInventory@7a9273a8]" name="checkStoreInventory_WhenUser_Placed_NewOrder_Then_Delete_TheOrder" duration-ms="170" started-at="2022-02-08T15:05:43 IST" finished-at="2022-02-08T15:05:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Object matches with common properties]]>
+            </line>
+            <line>
+              <![CDATA[Quantity matched after placing the order]]>
+            </line>
+            <line>
+              <![CDATA[Newly Placed order Found]]>
+            </line>
+            <line>
+              <![CDATA[Order deleted Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStoreInventory_WhenUser_Placed_NewOrder_Then_Delete_TheOrder -->
+      </class> <!-- org.N26.PetStoreApiAutomation.Tests.PlaceAndDeleteOderFromInventory -->
+    </test> <!-- Inventory Actions -->
+  </suite> <!-- Suite -->
+</testng-results>
